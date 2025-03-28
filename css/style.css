@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
-    font-family: "Montserrat", sans-serif;;
+    font-family:"Winky Sans", sans-serif;
 }
 header{
     background-color:  #0c244c ;
@@ -24,33 +26,37 @@ nav a{
    margin-right: 10px;
    margin-left: 10px;
    justify-content: center;
+   font-family: "Winky Sans", sans-serif;
 }
 
 .card {
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 300px;
     overflow: hidden;
     box-shadow: 0px 15px 20px;
     font-family: "Montserrat", sans-serif;
-    padding: 10px;
+    padding: 0px;
     background-color: #543ca4;
 }
 .card img { 
-    width: 95%;
-    
+    width: 100%;
+    border-radius: 5px;
    
 }
 .card h1{
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:  #0c244c ;
+    font-family: "Winky Sans", sans-serif;
 }
 .card h2{
     color: rgb(255, 255, 255);
+    font-family: "Winky Sans", sans-serif;
 }
 .card p{
 color: rgb(255, 255, 255);
+font-family: "Winky Sans", sans-serif;
 }
 
 .card:hover{
@@ -62,32 +68,34 @@ color: rgb(255, 255, 255);
     text-align: center;
 }
 
-
 .card-2 {
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 300px;
     overflow: hidden;
     box-shadow: 0px 15px 20px;
     font-family: "Montserrat", sans-serif;
-    padding: 10px;
+    padding: 0px;
     background-color: #0c244c;
+    font-family: "Winky Sans", sans-serif;
 }
 .card-2 img { 
-    width: 95%;
-    
-   
+    width: 100%;
+    border-radius: 5px;
 }
 .card-2 h1{
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:  #543ca4   ;
+    font-family: "Winky Sans", sans-serif;
 }
 .card-2 h2{
     color: rgb(255, 255, 255);
+    font-family: "Winky Sans", sans-serif;
 }
 .card-2 p{
 color: rgb(255, 255, 255);
+font-family: "Winky Sans", sans-serif;
 }
 
 .card-2:hover{
@@ -99,17 +107,14 @@ color: rgb(255, 255, 255);
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
 h1{
     text-align: center;
 }
+
+h3{
+    text-align: center;
+}
+
 a{
 text-align: center;
 text-decoration: none;
@@ -117,12 +122,26 @@ color: black;
 }
 section{
     text-align: center;
+    
 }
 
 footer{
     background-color: darkgrey;
     text-align: center;
     padding: 20px;
+}
+
+.histy img{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.histy{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;
 }
 
 
